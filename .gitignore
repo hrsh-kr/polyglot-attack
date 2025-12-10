@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.hypothesis/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+data/*.json
+results/*.json
+reports/*.pdf
+reports/*.csv
+reports/visualizations/*.png
+system.log
+.kiro/
+
+# Environment variables
+.env
+
+# Keep directory structure
+!data/.gitkeep
+!results/.gitkeep
+!reports/.gitkeep
+!reports/visualizations/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

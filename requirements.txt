@@ -1,0 +1,36 @@
+# Core LLM Interface
+ollama>=0.1.0
+
+# Translation Services
+deep-translator>=1.11.4
+googletrans==4.0.0rc1
+
+# HuggingFace for better translation
+transformers>=4.30.0
+torch>=2.0.0
+sentencepiece>=0.1.99
+sacremoses>=0.0.53
+
+# AI4Bharat IndicTrans2
+IndicTransToolkit>=1.0.0
+indic-nlp-library>=0.92
+
+# Data Processing and Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Property-Based Testing
+hypothesis>=6.82.0
+
+# Reporting
+reportlab>=4.0.0
+fpdf2>=2.7.0
+
+# Utilities
+python-dateutil>=2.8.0
+python-dotenv>=1.0.0
