@@ -28,7 +28,6 @@ htmlcov/
 *~
 
 # Project specific
-data/*.json
 results/*.json
 reports/*.pdf
 reports/*.csv
